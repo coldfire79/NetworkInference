@@ -137,21 +137,21 @@ class MIIA:
         plot_paths = [os.path.join(html_folder, i) for i in plot_names]
 
         plot_titles = [
-            "Binary interactions with MIIA",
-            "Binary interactions with sMIIA",
-            "Complex interactions with MIIA",
-            "Complex interactions with sMIIA",
-            "Adjusted complex interactions with MIIA",
-            "Adjusted complex interactions with sMIIA",
+            "Pairwise interactions in binary communities with MIIA",
+            "Pairwise interactions in binary communities with s-MIIA",
+            "Pairwise interactions in complex communities with MIIA",
+            "Pairwise interactions in complex communities with s-MIIA",
+            "Pairwise interactions in complex communities with MIIA (Adjusted)",
+            "Pairwise interactions in complex communities with s-MIIA (Adjusted)",
         ]
 
         plot_descs = [
-            "Binary interactions with MIIA",
-            "Binary interactions with sMIIA",
-            "Complex interactions with MIIA",
-            "Complex interactions with sMIIA",
-            "Adjusted complex interactions with MIIA by setting up undefined binary interactions as zeros",
-            "Adjusted complex interactions with sMIIA by setting up undefined binary interactions as zeros"
+            "Pairwise interactions in binary communities with MIIA",
+            "Pairwise interactions in binary communities with s-MIIA",
+            "Pairwise interactions in complex communities with MIIA",
+            "Pairwise interactions in complex communities with s-MIIA",
+            "Pairwise interactions in complex communities with MIIA by setting up undefined binary interactions as zeros",
+            "Pairwise interactions in complex communities with s-MIIA by setting up undefined binary interactions as zeros"
         ]
         
         for f, mat, num in zip(plot_paths, matrices, nonzeros):
