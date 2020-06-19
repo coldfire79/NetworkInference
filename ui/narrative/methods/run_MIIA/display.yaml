@@ -1,0 +1,57 @@
+#
+# define display information
+#
+name: Perform Network Inference with MIIA
+
+tooltip: |
+    Perform network inference for the microbial community using MIIA
+
+screenshots: []
+
+icon: icon.png
+
+#
+# define a set of similar apps that might be useful to the user
+#
+# suggestions:
+#     apps:
+#         related:
+#             [app1, app2]
+#         next:
+#             [app3, app4]
+
+#
+# Configure the display and description of parameters
+#
+parameters :
+    input_tbl :
+        ui-name : |
+            Growth data for multi-species
+        short-hint : |
+            Growth data for multi-species
+        long-hint  : |
+            Growth data for multi-species. Growth data includes population data in axenic, binary, and complex cultures. 
+
+    output_suffix :
+        ui-name : |
+            A suffix for the output files
+        short-hint : |
+            A suffix for the output files
+        long-hint  : |
+            A suffix for the output files
+
+description : |
+    MIIA is a network inference tool for predicting member-dependent interactions in microbial communities, which can deepen our understanding of the organization principles in ecological communities.
+
+publications :
+    -
+        pmid: 31263456
+        display-text: |
+            Song H-S, Lee J-Y, Haruta S, Nelson WC, Lee D-Y, Lindemann SR, Fredrickson JK and Bernstein HC (2019) Minimal Interspecies Interaction Adjustment (MIIA): Inference of Neighbor-Dependent Interactions in Microbial Communities. Front. Microbiol. 10:1264. doi: 10.3389/fmicb.2019.01264
+        link: https://www.frontiersin.org/articles/10.3389/fmicb.2019.01264
+
+    -
+        pmid: 32038529
+        display-text: |
+            Lee J-Y, Haruta S, Kato S, Bernstein HC, Lindemann SR, Lee D-Y, Fredrickson JK and Song H-S (2020) Prediction of Neighbor-Dependent Microbial Interactions From Limited Population Data. Front. Microbiol. 10:3049. doi: 10.3389/fmicb.2019.03049
+        link: https://www.frontiersin.org/articles/10.3389/fmicb.2019.03049
