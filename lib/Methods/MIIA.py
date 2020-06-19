@@ -207,7 +207,7 @@ class MIIA:
             'file_links': output_files,
             'html_links': [html_dir],
             'direct_html_link_index': 0,
-            'report_object_name': 'thermo_stoich_wizard_report_' + params['output_surfix'],
+            'report_object_name': 'miia_report_' + params['output_suffix'],
             'workspace_name': params['workspace_name']
         })
 
