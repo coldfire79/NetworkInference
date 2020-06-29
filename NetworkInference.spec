@@ -11,7 +11,7 @@ module NetworkInference {
         obj_ref input_tbl;
         string workspace_name;
         string output_suffix;
-      } PCAParams;
+      } MIIAParams;
 
     typedef structure {
         string report_name;
@@ -19,6 +19,6 @@ module NetworkInference {
     } MIIAOutput;
 
     /* run_miia: perform MIIA*/
-    funcdef run_miia(PCAParams params) returns (MIIAOutput output) authentication required;
+    funcdef run_miia(MIIAParams params) returns (MIIAOutput output) authentication required;
 
 };
